@@ -17,13 +17,13 @@ public class baseTest {
 		driver.get("https://www.linkedin.com/checkpoint/lg/sign-in-another-account");
 	}
 	
-	      @AfterMethod
-          public void tearDown() {
+	   
+         // public void tearDown() {
         	  
-        	   if(driver != null) {
-        		driver.quit();
+        	//   if(driver != null) {
+        		//driver.quit();
         		
-        	}
+        	//}
         	  
-          }
+        //  }
 }
