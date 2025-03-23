@@ -5,8 +5,17 @@
     <classes>
       <class name="tests.bookMyShowTest">
         <methods>
-          <include name="testlogin"/>
+          <include name="tearDown"/>
+          <include name="testTimeSelection"/>
           <include name="setUp"/>
+          <include name="testTermsAcceptance"/>
+          <include name="testDateSelection"/>
+          <include name="testMobileNumberInput"/>
+          <include name="testContinueButton"/>
+          <include name="testMovieSelection"/>
+          <include name="testEmailInput"/>
+          <include name="testSeatSelection"/>
+          <include name="testProceedToPayment"/>
         </methods>
       </class> <!-- tests.bookMyShowTest -->
     </classes>
